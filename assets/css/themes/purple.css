@@ -1,0 +1,8 @@
+:root{
+    --main-color: #6d12d6;
+    --main-hover-color: #5310a0;
+    --main-color-overlay: rgba(103, 18, 214, 0.88);
+}
+.right-side #contact .contactForm .error input, .right-side #contact .contactForm .error textarea, .right-side #contact .contactForm .error input:focus, .right-side #contact .contactForm .error textarea:focus {
+    border-color: #d10f0f !important;
+}

@@ -1,0 +1,44 @@
+
+:root{
+    --main-color: #6d12d6;
+    --main-hover-color: #5310a0;
+    --main-color-overlay: rgba(103, 18, 214, 0.88);
+    --body-bg: #27292e;
+    --main-bg: #35363b;
+    --secondary-color: #7f8082;
+    --main-text-color: #9c9c9c;
+}
+h1, h2, h3, h4, h5, h6, .section-title, .left-side .download-button .btn-download, .right-side .navbar .navbar-nav li:nth-child(2) a svg, .right-side #portfolio .filter-buttons #filters li.active a,.right-side #blog .item .img-holder .date {
+    color: #ccc !important
+}
+.service-title,.left-side .user-data li p strong, .event-time{
+    color: #aaa !important
+}
+.left-side .user-data::before,.right-side #resume .timeline .events::before{
+    background-color: #565454 !important
+}
+.right-side .navbar .navbar-toggler, button, a, .left-side-toggler{
+    border-color: #817d7d !important
+}
+.right-side #resume .timeline .events .event{
+    border: 1px solid rgba(187, 187, 187, 0.14) !important;
+    border-top: 3px solid var(--main-color);
+}
+.right-side #resume .testimonials #items .item, .right-side #portfolio .filter-buttons #filters li a, .right-side #portfolio .portfolio-items .item .img-overlay .caption a{
+    border: 1px solid rgba(187, 187, 187, 0.14) !important;
+}
+.right-side #portfolio .portfolio-items .item .img-overlay .caption a{
+    border-color: #eee !important;
+}
+.right-side #portfolio .portfolio-items .item .img-overlay .caption a:hover{
+    background-color: #eee !important;
+}
+.right-side #blog .item .caption h4,.left-side .name .user-name, .right-side #about .services .service .service-sub-title, .event-title, .right-side #resume .testimonials #items .item .testim-info h6{
+    color: var(--main-color) !important
+}
+.right-side #other .Interests .hoppy, .right-side #contact .contactForm .input-field input, .right-side #contact .contactForm .input-field textarea{
+    border-color: #555 !important
+}
+.right-side #contact .contactForm .error input, .right-side #contact .contactForm .error textarea, .right-side #contact .contactForm .error input:focus, .right-side #contact .contactForm .error textarea:focus  {
+    border-color: #d10f0f !important;
+}
